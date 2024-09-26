@@ -1,0 +1,96 @@
+ /* CSS Reset */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Body styling */
+body {
+    margin: 0;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    flex-direction: column; /* Stack h1 and nav vertically */
+    align-items: center; /* Center them horizontally */
+    justify-content: center; /* Center them vertically */
+    background: linear-gradient(#6466e6, #91e595, #91cde5);
+    width: 100vw;
+    padding: 20px;
+    color: white;
+}
+
+/* Style for the h1 */
+.header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+h1{
+    font-family: roboto;
+}
+
+p{
+    font-family: roboto;
+}
+
+/* Navigation styles */
+.header .navbar ul {
+    list-style: none; /* Should remove bullets */
+    padding: 0;       /* Should remove padding */
+    margin: 0;        /* Should remove margin */
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.header .navbar ul li {
+    margin: 0 15px; /* Space between links */
+}
+
+.header .navbar ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #6466e6;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.header .navbar ul li a:hover {
+    background-color: #91e595; /* Hover effect */
+}
+.footer{
+    background: linear-gradient(#6466e6, #91e595, #91cde5);
+    
+}
+.hero{
+    padding-bottom: 40px;
+}
+.footer2{
+    background: linear-gradient(#6466e6, #91e595, #91cde5);
+    padding-top: 0px;
+    margin-top: 300px;
+}
+.contact{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: roboto;
+}
+.bold{
+    font-weight: bold;
+}
+.light{
+    font-weight: normal;
+}
+.contact Ul {
+    list-style: none;
+}
